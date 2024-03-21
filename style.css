@@ -1,0 +1,90 @@
+body {
+    background-color: #1d004f;
+    font-family: Cabin, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#nav {
+    padding-inline: 150px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    padding-inline: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+nav>li {
+    list-style: none;
+    color: white;
+    padding-inline: 6px;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+
+}
+
+#reg {
+    background: linear-gradient(to right, #7F00FF, #3f00fc);
+    border: none;
+    color: white;
+    border-radius: 3px;
+    transform: skew(-20deg);
+    width: 100px;
+    height: 35px;
+   position: relative;
+
+}
+
+
+#reg span {
+    position: absolute;
+    transform: translate(-50%,-50%);
+    
+    transform: skew(20deg);
+    top: 25%;
+    left: 25%;
+    color: white;
+    
+    
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    font-size: 25px;
+
+}
+
+#logo a {
+    margin-left: 10px;
+    letter-spacing: 3px;
+}
+
+#krypton {
+    background: url('./public/img/logo/krypton.svg');
+    color: white;
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+    animation: rotate 4s linear infinite;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
